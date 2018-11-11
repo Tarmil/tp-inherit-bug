@@ -1,0 +1,43 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{63297B98-5CED-492C-A5B7-A5B4F73CF142}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LemonadeInheritProvider.Runtime", "src\LemonadeInheritProvider.Runtime\LemonadeInheritProvider.Runtime.fsproj", "{3C0A2E12-AE99-450A-A027-F75329B03273}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LemonadeInheritProvider.DesignTime", "src\LemonadeInheritProvider.DesignTime\LemonadeInheritProvider.DesignTime.fsproj", "{968E0A63-3BF3-44FE-BBEC-670D799DDF8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{ED8079DD-2B06-4030-9F0F-DC548F98E1C4}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LemonadeInheritProvider.Tests", "tests\LemonadeInheritProvider.Tests\LemonadeInheritProvider.Tests.fsproj", "{29F0DC29-186E-482B-BE5D-25EC881608C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C0A2E12-AE99-450A-A027-F75329B03273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C0A2E12-AE99-450A-A027-F75329B03273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C0A2E12-AE99-450A-A027-F75329B03273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C0A2E12-AE99-450A-A027-F75329B03273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{968E0A63-3BF3-44FE-BBEC-670D799DDF8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{968E0A63-3BF3-44FE-BBEC-670D799DDF8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{968E0A63-3BF3-44FE-BBEC-670D799DDF8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{968E0A63-3BF3-44FE-BBEC-670D799DDF8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29F0DC29-186E-482B-BE5D-25EC881608C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29F0DC29-186E-482B-BE5D-25EC881608C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29F0DC29-186E-482B-BE5D-25EC881608C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29F0DC29-186E-482B-BE5D-25EC881608C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29F0DC29-186E-482B-BE5D-25EC881608C4} = {ED8079DD-2B06-4030-9F0F-DC548F98E1C4}
+	EndGlobalSection
+EndGlobal

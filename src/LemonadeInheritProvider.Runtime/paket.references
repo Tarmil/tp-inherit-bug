@@ -1,0 +1,6 @@
+File:ProvidedTypes.fsi
+File:ProvidedTypes.fs
+
+FSharp.Core
+Newtonsoft.Json
+# System.Text.Encoding.CodePages framework: netstandard2.0,netcoreapp2.0
