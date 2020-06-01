@@ -1,19 +1,22 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{63297B98-5CED-492C-A5B7-A5B4F73CF142}"
 	ProjectSection(SolutionItems) = preProject
 		paket.dependencies = paket.dependencies
 	EndProjectSection
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LemonadeInheritProvider.Runtime", "src\LemonadeInheritProvider.Runtime\LemonadeInheritProvider.Runtime.fsproj", "{3C0A2E12-AE99-450A-A027-F75329B03273}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "LemonadeInheritProvider.Runtime", "src\LemonadeInheritProvider.Runtime\LemonadeInheritProvider.Runtime.fsproj", "{3C0A2E12-AE99-450A-A027-F75329B03273}"
+	ProjectSection(ProjectDependencies) = postProject
+		{968E0A63-3BF3-44FE-BBEC-670D799DDF8A} = {968E0A63-3BF3-44FE-BBEC-670D799DDF8A}
+	EndProjectSection
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LemonadeInheritProvider.DesignTime", "src\LemonadeInheritProvider.DesignTime\LemonadeInheritProvider.DesignTime.fsproj", "{968E0A63-3BF3-44FE-BBEC-670D799DDF8A}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "LemonadeInheritProvider.DesignTime", "src\LemonadeInheritProvider.DesignTime\LemonadeInheritProvider.DesignTime.fsproj", "{968E0A63-3BF3-44FE-BBEC-670D799DDF8A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{ED8079DD-2B06-4030-9F0F-DC548F98E1C4}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LemonadeInheritProvider.Tests", "tests\LemonadeInheritProvider.Tests\LemonadeInheritProvider.Tests.fsproj", "{29F0DC29-186E-482B-BE5D-25EC881608C4}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "LemonadeInheritProvider.Tests", "tests\LemonadeInheritProvider.Tests\LemonadeInheritProvider.Tests.fsproj", "{29F0DC29-186E-482B-BE5D-25EC881608C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,5 +42,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{29F0DC29-186E-482B-BE5D-25EC881608C4} = {ED8079DD-2B06-4030-9F0F-DC548F98E1C4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D104B85-8389-4901-BA3A-1B1FE307D576}
 	EndGlobalSection
 EndGlobal
